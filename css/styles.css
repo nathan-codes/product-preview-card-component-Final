@@ -57,7 +57,7 @@ section h2.heading {
 
 
 section p {
-    color: hsl(158, 36%, 37%);
+    color: hsl(228, 12%, 48%);
     font-weight: 500;
 }
 
@@ -130,7 +130,7 @@ section i.cart-icon {
 
         section.image-section {
         max-width: 50%;
-        content: url(images/image-product-desktop.jpg);
+        content: url(/images/image-product-desktop.jpg) ;
         border-radius: 0;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
