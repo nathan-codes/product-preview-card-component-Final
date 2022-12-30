@@ -23,7 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Live Site URL: [here](https://nathan-codes.github.io/qr-code-component-main/)
+- Live Site URL: [here](https://nathan-codes.github.io/product-preview-card-component-Final/)
 
 ### Built with
 
