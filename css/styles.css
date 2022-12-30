@@ -1,13 +1,12 @@
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
 }
 
-body{
+body {
     box-sizing: border-box;
     background-color: hsl(30, 38%, 92%);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -18,12 +17,12 @@ body{
 
 
 
-main img{
+main img {
     max-width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
-    
+
+
 }
 
 
@@ -34,7 +33,7 @@ main {
     background-color: white;
 }
 
-section.item-description{
+section.item-description {
     padding: 1rem 1.5rem;
 }
 
@@ -58,13 +57,13 @@ section h2.heading {
 
 
 section p {
-color: hsl(158, 36%, 37%);
-font-weight: 500;
+    color: hsl(158, 36%, 37%);
+    font-weight: 500;
 }
 
 
 section p.summary {
-   
+
     font-weight: 500;
     line-height: 1.5rem;
     padding-bottom: 1rem;
@@ -73,7 +72,7 @@ section p.summary {
 
 
 section h2.new-price {
-    color:hsl(158, 36%, 37%);
+    color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 2rem;
@@ -81,19 +80,19 @@ section h2.new-price {
 
 section article.prices {
     display: flex;
-    padding-bottom:1rem ;
+    padding-bottom: 1rem;
 }
 
-section article h2{
+section article h2 {
     padding-right: 2rem;
 }
 
 section article p {
-    
+
     padding-top: 0.6rem;
     font-size: 0.9rem;
     text-decoration: line-through;
-    
+
 }
 
 section button {
@@ -108,7 +107,7 @@ section button {
     background-color: hsl(158, 36%, 37%);
     margin-bottom: .8rem;
 
-    
+
 
 }
 
@@ -116,21 +115,49 @@ section button {
 
 section i.cart-icon {
     padding-right: 1rem;
-   
+
+}
+
+
+
+
+@media screen and  (min-width:646px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+        section.image-section {
+        max-width: 50%;
+        content: url(/images/image-product-desktop.jpg) ;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    main {
+        width: 640px;
+    }
+
+    section.item-description {
+        padding: 3rem;
+        max-width: 50%;
+
+    }
 }
 
 
 
 
 
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
 
- .attribution {
-     font-size: 12px;
-     text-align: center;
-     position: absolute;
-     bottom: 10px;
- }
-
- .attribution a {
-     color: hsl(228, 45%, 44%);
- }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
